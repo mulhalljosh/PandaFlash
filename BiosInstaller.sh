@@ -1,11 +1,11 @@
-#!/bin/bash
+#! /bin/bash
 
-counter = 0
+x=0
 
-while[ $counter -ne $2];
+while [ $x -ne $2 ]
 do
-  sudo ./amdvbflash -p $counter $1
-  ((counter++))
+ sudo ./amdvbflash -p $x $1
+ ((x++))
 done
 
 reboot

@@ -4,7 +4,7 @@ Here is the commands to run the full process:
 git clone https://github.com/mulhalljosh/PandaFlash.git
 cd PandaFlash
 chmod +x BiosInstaller.sh
-sudo BiosInstaller Panda3fan.rom <number of card>
+sudo BiosInstaller.sh Panda3fan.rom <number of card>
 ```
 
 # amdvbflash

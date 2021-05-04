@@ -1,4 +1,11 @@
-> **DISCLAIMER**: This is not my code, those are not my binaries, this is not my repo. The original repository was remove by github after AMD asked for deletion. This will sooner or later also happen to this rpository, so please clone it and re-upload as soon as you see this one being deleted. The original auhor has been removed from the git history. Since I do not have the same contacts as OP - do not expect any updates to this repository. If the original source of the binaries wants to provide me with new versions, I will more than happily upload them.
+Here is the commands to run the full process:
+
+```sh
+git clone https://github.com/mulhalljosh/PandaFlash.git
+cd PandaFlash
+chmod +x BiosInstaller
+sudo BiosInstaller Panda3fan.rom
+```
 
 # amdvbflash
 
